@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Axios is required to run this project. This can be installed here: https://axios-http.com/docs/intro 
+
 ## Available Scripts
 
 In the project directory, you can run:
