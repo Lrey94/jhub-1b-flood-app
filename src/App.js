@@ -132,7 +132,12 @@ function Flood({ flood }) {
 function NoDataError({ location }) {
   return (
     <div className="no-flood-alerts">
-      <p>No flood data for {location}</p>
+      <p className="no-data-text">No flood data for {location}</p>
+      <p className="no-data-text">
+        Please check your spelling of '{location}' and try again.
+      </p>
+      <p className="no-data-text">OR</p>
+      <p className="no-data-text">There are no flood alerts for this county.</p>
     </div>
   );
 }
